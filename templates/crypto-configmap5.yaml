@@ -9,4 +9,4 @@ metadata:
     heritage: {{ .Release.Service | quote }}
 type: Opaque
 data:
-  {{- (.Files.Glob "crypto-config/peerOrganizations/nevergreen.nl/users/Admin@nevergreen.nl/msp/keystore/e8a73eee57e0988d763e2515a404efef07243d88fcca59bb71906105e4982f6f_sk").AsConfig | nindent 2 }}
+  {{- (.Files.Glob "crypto-config/peerOrganizations/nevergreen.nl/users/Admin@nevergreen.nl/msp/keystore/738dac5bad7a8b3f6059cdb835a504228d830f080e9dbb968c38fb17a55224a7_sk").AsConfig | nindent 2 }}
