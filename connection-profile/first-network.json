@@ -47,7 +47,7 @@
       "KargaMSP":{
          "mspid":"KargaMSP",
          "adminPrivateKey":{
-            "path":"/tmp/crypto/peerOrganizations/aptalkarga.tr/users/Admin@aptalkarga.tr/msp/keystore/ed585db59f69fda7b6b1576cfcb9676b01d54b42805616265f4f4eeb41b685a6_sk"
+            "path":"/tmp/crypto/peerOrganizations/aptalkarga.tr/users/Admin@aptalkarga.tr/msp/keystore/c19f6f5ccd4a2d960840e31a6ca9767213e517aa92d100a5fafb1d3751789f67_sk"
          },
          "peers":[
             "peer0.aptalkarga.tr"
@@ -60,7 +60,7 @@
       "AtlantisMSP":{
          "mspid":"AtlantisMSP",
          "adminPrivateKey":{
-            "path":"/tmp/crypto/peerOrganizations/atlantis.com/users/Admin@atlantis.com/msp/keystore/e12341eb0882a7295c638a60cc627518051e48932e3ff20a7059950540f1e1ac_sk"
+            "path":"/tmp/crypto/peerOrganizations/atlantis.com/users/Admin@atlantis.com/msp/keystore/01e6d26a8ae2fec182e1e43ddf06ff4d36760eab2696b618b7acb6aa5bdb4e3e_sk"
          },
          "peers":[
             "peer0.atlantis.com"
