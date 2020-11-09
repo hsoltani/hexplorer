@@ -69,6 +69,19 @@
          "signedCert":{
             "path":"/tmp/crypto/peerOrganizations/atlantis.com/users/Admin@atlantis.com/msp/signcerts/Adminatlantiscom-cert.pem"
          }
+      },
+      "NevergreenMSP":{
+         "mspid":"NevergreenMSP",
+         "adminPrivateKey":{
+            "path":"/tmp/crypto/peerOrganizations/nevergreen.nl/users/Admin@nevergreen.nl/msp/keystore/738dac5bad7a8b3f6059cdb835a504228d830f080e9dbb968c38fb17a55224a7_sk"
+         },
+         "peers":[
+            "peer0.nevergreen.nl"
+            
+         ],
+         "signedCert":{
+            "path":"/tmp/crypto/peerOrganizations/atlantis.com/users/Admin@atlantis.com/msp/signcerts/Adminnevergreennl-cert.pem"
+         }
       }
    },
    "peers":{
