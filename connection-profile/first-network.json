@@ -89,19 +89,19 @@
          "tlsCACerts":{
             "path":"/tmp/crypto/peerOrganizations/aptalkarga.tr/peers/peer0.aptalkarga.tr/tls/ca.crt"
          },
-         "url":"grpcs://peer0.aptalkarga.tr:7051"
+         "url":"grpc://peer0.aptalkarga.tr:7051"
       },
       "peer0.atlantis.com":{
          "tlsCACerts":{
             "path":"/tmp/crypto/peerOrganizations/atlantis.com/peers/peer0.atlantis.com/tls/ca.crt"
          },
-         "url":"grpcs://peer0.atlantis.com:7051"
+         "url":"grpc://peer0.atlantis.com:7051"
       },
       "peer0.nevergreen.nl":{
          "tlsCACerts":{
             "path":"/tmp/crypto/peerOrganizations/nevergreen.nl/peers/peer0.nevergreen.nl/tls/ca.crt"
          },
-         "url":"grpcs://peer0.nevergreen.nl:7051"
+         "url":"grpc://peer0.nevergreen.nl:7051"
       }
       
    }
