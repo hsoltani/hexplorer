@@ -127,6 +127,8 @@ spec:
           mountPath: /tmp/crypto/peerOrganizations/atlantis.com/peers/peer0.atlantis.com/tls
         - name: crypto9
           mountPath: /tmp/crypto/peerOrganizations/nevergreen.nl/peers/peer0.nevergreen.nl/tls
+        - name: crypto10
+          mountPath: /opt/explorer/app/platform/fabric
         
       volumes:
       - name: connection
@@ -159,6 +161,9 @@ spec:
       - name: crypto9
         configMap:
           name: {{ template "explorer.fullname" . }}-crypto9
+      - name: crypto10
+        configMap:
+          name: {{ template "explorer.fullname" . }}-crypto10
       - name: explorer-data
       {{- if .Values.persistence.enabled }}
         persistentVolumeClaim:
