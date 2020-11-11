@@ -129,7 +129,7 @@ spec:
           mountPath: /tmp/crypto/peerOrganizations/nevergreen.nl/peers/peer0.nevergreen.nl/tls
         - name: crypto10
           mountPath: /opt/explorer/app/platform/fabric/config.json
-          subPath: ./opt/explorer/app/platform/fabric/config.json
+          subPath: config.json
         
       volumes:
       - name: connection
